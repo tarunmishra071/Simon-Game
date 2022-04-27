@@ -5,6 +5,7 @@ var level = 0,
 $(document).keydown(function (event) {
   if (!started) {
     started = true;
+    level = 0;
     nextLvel();
   }
 });
