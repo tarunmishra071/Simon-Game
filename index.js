@@ -6,8 +6,8 @@ $(document).keydown(function (event) {
   if (!started) {
     started = true;
     level = 0;
-    c = 0;
     levelList = [];
+    c = 0;
     nextLvel();
   }
 });
